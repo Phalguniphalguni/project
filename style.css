@@ -47,10 +47,12 @@
 }
 
 body{
-    background-color: rgba(67, 84, 131,0.9);
+    background-color:#fdfdff;
     font-family: Arial, Helvetica, sans-serif; 
 }
-
+.heading{
+  color:#080924;
+}
 .button:hover{
     color:rgb(32, 3, 57);
     font-size: 0.77rem;
@@ -73,7 +75,7 @@ body{
     padding:5rem;
 }
 .services div{
-    background-color: #3b45b8;
+    background-color: #232972;
   width: 18rem;
   padding: 1rem;
   border-radius: 0.5rem;
@@ -138,7 +140,7 @@ body{
     cursor: pointer;
     transition: all 0.3s;
 }
-.images {
+.images{
     display: flex;
     overflow-x: auto;
     scroll-behavior: smooth;
@@ -159,14 +161,15 @@ body{
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.3);
     animation: slideImages 10s linear infinite;
-     background-size: cover;
+    background-size: cover;
     background-repeat: no-repeat;
     object-fit: cover;
 }
 
 @keyframes slideImages {
     0% { transform: translateX(0); }
-    100% { transform: translateX(-100%); }
+    100% { transform: translateX(-100%);
+     }
 }
 .image1 {
   background-image: url(https://th.bing.com/th/id/OIP.UKVMTl4tx_7l_j3oBNqLPQHaEo?w=271&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3);
@@ -334,7 +337,7 @@ body{
 .price div{
     height:30rem;
     width:18rem;
-    background-color: #35288592;
+    background-color: #3217e192;
     aspect-ratio: 4/3;
     display:inline-block;
     gap:1rem;
@@ -398,7 +401,7 @@ body{
 }
 .review div{
     width:25%;
-    background-color: #8c8cdc6f;
+    background-color: #0e44d86f;
     display: inline-block;
     margin:1rem;
     border-radius: 1rem;
@@ -417,7 +420,7 @@ body{
 .r3 div{
     height:4rem;
     width:4rem;
-    background-color: #ccc;
+    background-color: #15295d;
     border-radius: 50%;
     margin: 0 auto 0.5rem;
     overflow: hidden;
@@ -440,7 +443,7 @@ body{
 }
 .review p{
   font-size: 0.9rem;
-  color: #eee;
+  color: #040120;
   margin-top: 0.5rem;
 }
 .Contact h2{
@@ -503,7 +506,7 @@ form {
   padding: 0;
   border-radius: 0;
   backdrop-filter: none;
-  background: rgba(175, 161, 223, 0.393);
+  background: rgba(47, 10, 170, 0.526);
   padding: 2rem;
   border-radius: 1rem;
   box-shadow: 0 8px 16px rgba(0,0,0,0.2);
@@ -535,7 +538,7 @@ textarea::placeholder {
 footer{
     height:17rem;
     width:102%;
-    background-color:rgba(1, 1, 50, 0.712);
+    background-color:rgba(3, 3, 75, 0.712);
     margin-top: 3rem;
     padding:1rem;
     gap:1rem;
@@ -559,7 +562,7 @@ footer{
 } 
 footer div h3{
      margin:10px;
-     color:#ccc;
+     color:#eeeefe;
      margin-left: -5px;
 }
 .panel4{
@@ -599,5 +602,5 @@ body h2:hover{
 color:#eb682b;
 }
 body h2{
-  color:rgb(243, 238, 200);
+  color:rgb(34, 55, 151);
 }
